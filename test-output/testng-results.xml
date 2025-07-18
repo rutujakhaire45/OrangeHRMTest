@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-13T16:47:53 IST" name="Default suite" finished-at="2025-07-13T16:48:38 IST" duration-ms="44363">
+    <groups>
+    </groups>
+    <test started-at="2025-07-13T16:47:53 IST" name="Default test" finished-at="2025-07-13T16:48:38 IST" duration-ms="44363">
+      <class name="tests.AdminTest">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:47:53 IST" name="setupExtent" finished-at="2025-07-13T16:47:53 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:47:53 IST" name="setupDriver" finished-at="2025-07-13T16:47:58 IST" duration-ms="4830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="validateLeftMenuAndNavigateToAdmin()[pri:1, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:47:58 IST" name="validateLeftMenuAndNavigateToAdmin" finished-at="2025-07-13T16:48:02 IST" duration-ms="4055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLeftMenuAndNavigateToAdmin -->
+        <test-method is-config="true" signature="teardownDriver(org.testng.ITestResult)[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:02 IST" name="teardownDriver" finished-at="2025-07-13T16:48:02 IST" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLeftMenuAndNavigateToAdmin status=SUCCESS method=AdminTest.validateLeftMenuAndNavigateToAdmin()[pri:1, instance:tests.AdminTest@7817fd62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:02 IST" name="setupDriver" finished-at="2025-07-13T16:48:11 IST" duration-ms="9053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchByUsername()[pri:2, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:11 IST" name="searchByUsername" finished-at="2025-07-13T16:48:18 IST" duration-ms="6448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUsername -->
+        <test-method is-config="true" signature="teardownDriver(org.testng.ITestResult)[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:18 IST" name="teardownDriver" finished-at="2025-07-13T16:48:18 IST" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByUsername status=SUCCESS method=AdminTest.searchByUsername()[pri:2, instance:tests.AdminTest@7817fd62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:18 IST" name="setupDriver" finished-at="2025-07-13T16:48:22 IST" duration-ms="3736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchByUserRole()[pri:3, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:22 IST" name="searchByUserRole" finished-at="2025-07-13T16:48:27 IST" duration-ms="5295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUserRole -->
+        <test-method is-config="true" signature="teardownDriver(org.testng.ITestResult)[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:27 IST" name="teardownDriver" finished-at="2025-07-13T16:48:28 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByUserRole status=SUCCESS method=AdminTest.searchByUserRole()[pri:3, instance:tests.AdminTest@7817fd62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:28 IST" name="setupDriver" finished-at="2025-07-13T16:48:32 IST" duration-ms="4447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="searchByUserStatus()[pri:4, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:32 IST" name="searchByUserStatus" finished-at="2025-07-13T16:48:37 IST" duration-ms="5355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUserStatus -->
+        <test-method is-config="true" signature="teardownDriver(org.testng.ITestResult)[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:37 IST" name="teardownDriver" finished-at="2025-07-13T16:48:38 IST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByUserStatus status=SUCCESS method=AdminTest.searchByUserStatus()[pri:4, instance:tests.AdminTest@7817fd62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownDriver -->
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:tests.AdminTest@7817fd62]" started-at="2025-07-13T16:48:38 IST" name="tearDownExtent" finished-at="2025-07-13T16:48:38 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- tests.AdminTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
